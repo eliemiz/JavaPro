@@ -2,12 +2,12 @@ package ch06._201124;
 
 // 2020-11-24 10:40 Ex2
 
-public class InitEx {
+public class Ex2_Init {
 	static int cv;
 	int iv;
 
 	// constructor
-	InitEx() {
+	Ex2_Init() {
 		System.out.println("5. 积己磊 龋免凳");
 	}
 
@@ -29,10 +29,10 @@ public class InitEx {
 	public static void main(String[] args) {
 		System.out.println("2. main method 矫累");
 		System.out.println("3. main init1 按眉 积己");
-		InitEx init1 = new InitEx();
+		Ex2_Init init1 = new Ex2_Init();
 		name();
 		System.out.println("3. main init2 按眉 积己");
-		InitEx init2 = new InitEx();
+		Ex2_Init init2 = new Ex2_Init();
 
 	}
 }

@@ -35,7 +35,7 @@ class Car2 {
 	}
 }
 
-public class ThisEx1 {
+public class Ex1_This {
 	public static void main(String[] args) {
 
 		Car2 c1 = new Car2();

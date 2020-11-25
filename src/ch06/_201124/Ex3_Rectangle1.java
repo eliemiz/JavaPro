@@ -20,7 +20,7 @@ class Rectangle {
 	}
 }
 
-public class RectangleEx {
+public class Ex3_Rectangle1 {
 	public static void main(String[] args) {
 		Rectangle r = new Rectangle(100, 200);
 
