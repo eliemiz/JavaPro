@@ -9,6 +9,7 @@ final class FinalClass {
 //
 //}
 
+// 인코딩 테스트
 public class Ex11_Final {
 	public static void main(String[] args) {
 
