@@ -56,7 +56,7 @@ class AutoBike3 extends Bike3 {
 	}
 }
 
-public class Ex6_Polymorphism {
+public class Ex06_Polymorphism {
 	public static void main(String[] args) {
 		// 변수는 오버라이딩 되지 않음을 설명하기 위함
 		AutoBike3 auto = new AutoBike3(2);

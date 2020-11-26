@@ -27,7 +27,7 @@ class Child2 extends Parent2 {
 	}
 }
 
-public class Ex3_SuperEx {
+public class Ex03_SuperEx {
 	public static void main(String[] args) {
 		Child2 child = new Child2();
 		child.method();

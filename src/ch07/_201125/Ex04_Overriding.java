@@ -49,7 +49,7 @@ class AutoBike extends Bike {
 	}
 }
 
-public class Ex4_Overriding {
+public class Ex04_Overriding {
 	public static void main(String[] args) {
 		
 		AutoBike ab = new AutoBike(2);

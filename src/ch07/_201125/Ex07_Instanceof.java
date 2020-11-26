@@ -12,7 +12,7 @@ class Child4 extends Parent4 {
 	}
 }
 
-public class Ex7_Instanceof {
+public class Ex07_Instanceof {
 	public static void main(String[] args) {
 		Parent4 p = new Parent4();
 

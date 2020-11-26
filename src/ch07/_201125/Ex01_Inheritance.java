@@ -35,7 +35,7 @@ class SmartPhone extends Phone {
 	}
 }
 
-public class Ex1_Inheritance {
+public class Ex01_Inheritance {
 	public static void main(String[] args) {
 		SmartPhone sp = new SmartPhone();
 		System.out.println(sp.toString());

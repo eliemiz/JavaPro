@@ -25,7 +25,7 @@ class Normal extends Abs2 {
 	}
 }
 
-public class Ex9_InheritanceOfAbstractClass {
+public class Ex09_InheritanceOfAbstractClass {
 	public static void main(String[] args) {
 		Abs1 a1 = new Normal();
 		System.out.println(a1.getA());

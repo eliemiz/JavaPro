@@ -1,6 +1,6 @@
 package ch07._201125;
 
-public class Ex5_Polymorphism {
+public class Ex05_Polymorphism {
 	public static void main(String[] args) {
 		AutoBike auto1 = new AutoBike(2);
 

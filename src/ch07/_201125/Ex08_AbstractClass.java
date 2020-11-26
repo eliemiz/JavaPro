@@ -63,7 +63,7 @@ class Rectangle extends Shape {
 	}
 }
 
-public class Ex8_AbstractClass {
+public class Ex08_AbstractClass {
 	public static void main(String[] args) {
 
 		Shape[] shapes = new Shape[2];

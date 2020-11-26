@@ -20,7 +20,7 @@ class Child extends Parent {
 	}
 }
 
-public class Ex2_SuperEx {
+public class Ex02_SuperEx {
 	public static void main(String[] args) {
 		Child c = new Child();
 		System.out.println(c.x);
