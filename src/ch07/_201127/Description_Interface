@@ -1,0 +1,56 @@
+Interface
+
+인터페이스는 주로 추상메서드를 멤버로 가짐.
+사용하기 위해서는 일반클래스에서 구현(implements)해야 함.
+구현한 일반클래스 내부에서는 추상메서드를 반드시 재정의(overriding)해야 함.
+
+interface InterfaceName{
+	[public static final] int CONSTANT_NAME;
+	[public abstract] returnType abstractMethodName();
+	[public] default returnType methodName(parameter) {...}
+	[public] static returnType methodName(parameter) {...}
+}
+
+인터페이스의 특징
+- 객체화 불가 -> 구현클래스로 객체화 됨.
+- implements 예약어로 구현
+- 다중 구현 가능(class Temp implements Interface1, Interface2{...)
+- 인터페이스의 모든 멤버의 접근제어자는 public(생략 가능) (class에서는 생략하면 default)
+- 인터페이스의 모든 멤버변수는 final이 붙은 상수이다.(생략 가능)
+
+인터페이스의 멤버
+- 상수 : public static final 예약어 사용(생략 가능). 그 외 제어자 사용 불가
+- 추상메서드 : 기본적으로 실행블록 없는 추상메서드로 선언. public abstract 예약어 사용(생략 가능). 그 외 제어자 사용 불가
+- 디폴트 메서드 : java 8에서 인터페이스에 추가된 새로운 멤버.
+			  body를 가지고 있는 메서드. 반드시 default 키워드 필요(접근제어자 아님!. 생략 불가). 접근제어자는 public
+- static 메서드 : java 8에서 인터페이스에 추가된 새로운 멤버.
+				body를 가지고 있는 메서드. 구현 객체 없이 인터페이스에서 바로 호출 가능한 메서드
+
+구현 클래스
+- 인터페이스를 구현한 클래스
+- 인터페이스는 구현 클래스의 객체를 통하여 인터페이스의 객체가 생성됨.
+public class ClassName implements InterfaceName{
+	// 인터페이스에 선언된 추상 메서드를 오버라이딩 해야 함.
+}
+
+
+인터페이스의 다형성
+- 인터페이스도 자료형이다.
+- 구현클래스의 객체를 인터페이스 타입으로 참조가 가능함.
+- 인터페이스 타입으로 참조된 객체는 인터페이스 멤버만큼만 호출이 가능함.
+- Instanceof 연산자를 이용하여 참조여부 검증함.
+
+어노테이션
+- 프로그램에 추가적인 정보를 제공해주는 메타 데이터
+- 어노테이션도 인터페이스다?
+
+메타 어노테이션
+- 사용자가 어노테이션을 만들 수 있는 어노테이션
+
+
+
+
+
+
+
+
