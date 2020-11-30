@@ -1,0 +1,23 @@
+
+내부클래스(Inner Class)
+ - 클래스 내부에 들어있는 클래스
+ - 외부클래스의 멤버가 된다.
+ - 외부클래스 밖에서의 접근가능 여부는 modifier에 의해 결정된다.
+ 
+1. Static Inner Class
+ - 내부클래스의 객체를 외부클래스에 대해 독립적으로 만들 때 사용
+ 
+ 	Outer.Inner ex = new Outer.Inner();
+
+2. Instance Inner Class
+ - 외부클래스의 객체를 생성한 후, 그 레퍼런스를 가지고 내부 클래스의 객체를 생성한다.
+ - 즉, 외부클래스의 주소가 있어야 만들 수 있다.  
+ 
+ 	Outer.Inner ex = new Outer.new Inner();
+ 
+3. Local Inner Class
+ - 메서드 안에 선언되는 내부클래스
+
+4. Anonymous Inner Class
+ - 클래스명을 갖지 않고 한번만 사용할 수 있는 내부클래스
+ - 주로 이벤트 처리에서 많이 사용된다. 
