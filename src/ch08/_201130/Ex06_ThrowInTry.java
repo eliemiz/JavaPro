@@ -1,4 +1,4 @@
-package ch08;
+package ch08._201130;
 
 public class Ex06_ThrowInTry {
 	public static void main(String[] args) {

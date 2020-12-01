@@ -1,4 +1,4 @@
-package ch08;
+package ch08._201130;
 
 // 다중 catch 구문 예제
 // 상속 관계의 Exception은 조상이 아래에 있어야 함.(더 세분화된 예외를 처리하기 위함)

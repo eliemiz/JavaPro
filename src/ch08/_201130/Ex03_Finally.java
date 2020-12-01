@@ -1,4 +1,4 @@
-package ch08;
+package ch08._201130;
 
 // finally : 정상 실행, 예외 실행됨.
 // try, catch에서 return문을 만나도 finally는 실행됨.

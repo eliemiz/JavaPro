@@ -1,4 +1,4 @@
-package ch08;
+package ch08._201130;
 
 public class Ex05_CustomException {
 	public static void main(String[] args) {

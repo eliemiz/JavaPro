@@ -1,4 +1,4 @@
-package ch08;
+package ch08._201130;
 
 // throws  : 예외처리를 자신을 호출한 메서드에 맡김
 
