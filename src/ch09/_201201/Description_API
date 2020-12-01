@@ -1,0 +1,41 @@
+
+기본 API
+
+java.lang
+- 자바 프로그램의 기본적인 클래스를 담은 패키지
+- import 없이 사용
+
+Object	자바 클래스의 최상위 클래스. Object의 멤버는 모든 클래스에서 사용 가능
+System	표준 입출력 객체를 소유
+Class	클래스를 메모리에 로딩할 때 사용. 클래스 정보
+String	문자열 정보 저장
+StringBuffer, StringBuilder	문자열 저장 및 동적 문자열 처리
+Math	수학 관련 함수 사용
+Byte...Boolean	기본타입의 데이터를 객체화 할 때 사용.(Wrapper 클래스)
+
+hashcode
+ - 객체 식별할 하나으 ㅣ정수값
+ - 객체의 메모리 번지를 이용해 해시코드 만들어 리턴(개별 객체는 해시코드가 모두 다름)
+ - 자바에서 논리적 동등을 위해서 equals()메서드를 오버라이딩 하는 경우는 hashCode()메서드도 함께 오버라이딩 하도록 권장
+
+Class
+클래스와 인터페이스의 메타데이터(클래스 이름, 생성자 정보, 필드 정보, 메소드 정보) 관리
+getClass(), forName() : 자신 객체의 클래스 정보를 가진 Class 객체를 리턴
+reflection : 클래스의 생성자, 필드, 메소드 정보를 알아내는 것
+
+정규 표현식(Regular Expression)
+[] 	한 개의 문자
+\d	한 개의 숫자
+\s	... 
+
+Random 클래스
+ -난수 만든다.
+ 
+Date보다 Calendar 클래스를 더 많이 쓴다?
+
+Arrays 클래스 : 배열 관련
+
+DecimalFormat, SimpleDateFormat : 숫자와 날짜를 원하는 형식의 문자열로 변환
+
+
+
